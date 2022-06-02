@@ -2,6 +2,9 @@
 
 The LEE code for simulating Dense Plasma Focus operation under the Lee Model
 for GNU ForTran by Jorge A. García Gallardo, CNEA (c) 2019-2020
+
+jorge.gallaro@cab.cnea.gov.ar
+
 This code is distributed under the GNU General Public License. For More infomartion read LICENSE.txt
 
 This code is based on Lee's RADPFV6.1b.c over macro version 5.13.6 for Microsoft Excel
@@ -17,6 +20,11 @@ And validated with the data published in Table 3.10 (pp. 186-187) of
 
 - S. Lee and S. H. Saw, "Plasma Science and Technology for Emerging Economies" Springer Nature (2017)
   "Chapter 3 : The Plasma Focus - Numerical Experiments, Insights and Aplications"
+  
+This code has been used in (you can add this as reference in your work if you use this code):
+
+- J.A. Garcı́a Gallardo, "An Approach to a Lee Model for Rotating Plasma". Journal of Fusion Energy. volume 41, Article number: 3 (2022)
+
 
 Files included in this distribution:
 
@@ -56,7 +64,8 @@ then the binary 'lee' should be created.
 
 * USAGE
 
-First fill a file named <name>.in , for example "data.in", with the parameters of the system to be simulated. These paramenters are the same as in the original Lee code.
+First, fill a file named <name>.in , (for example "data.in") with the parameters of the system to be simulated. These paramenters are the same as in the original Lee code. As an example of input file, you can pick one of the files with the ".in" extension found in the three folders comming with this distribution (which are data for the pf1000, pf400 and NX3 devices).
+
 Then just run:
 
     ./lee data.in
