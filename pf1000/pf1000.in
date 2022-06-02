@@ -1,0 +1,33 @@
+&bank
+	L0=33.0,
+	C0=1332.0,
+	R0=6.3
+/
+&tube
+	RADA=11.55,
+	RADB=16.0,
+	Z0=60.0,
+	V0=27.0
+ /
+ &gas
+	g=1.66667,
+	P0=3.5,
+	ZN=1,
+	MW=4.0,
+	dissociatenumber = 2
+ /
+ &model
+	massf=0.14,
+	massfr=0.35,
+	currf=0.7,
+	currfr=0.7
+	
+ /
+ &control
+	Ncon=1,
+	D=2.0D-03,
+	title='Numerical Experiments on PF1000 Neutron Yield, J.Fusion Energ.33, p684 (2014)',
+	description='S.H.Saw, D.Subedi, R.Khanal, R.Shrestha, S.Dugu, S.Lee'
+ /
+
+
