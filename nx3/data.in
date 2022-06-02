@@ -1,0 +1,33 @@
+&bank
+	L0=50.0,
+	C0=100.0,
+	R0=2.3
+/
+&tube
+	RADA=2.6,
+	RADB=5.2,
+	Z0=16.0,
+	V0=17.0
+ /
+ &gas
+	g=1.66667,
+	P0=11.0,
+	ZN=1,
+	MW=4.0,
+	dissociatenumber = 2
+ /
+ &model
+	massf=0.10,
+	massfr=0.25,
+	currf=0.7,
+	currfr=0.7
+	
+ /
+ &control
+	Ncon=1,
+	D=2.0D-03,
+	title='calculations for the NX3 machine',
+	description='S. Lee and H. Shaw (2017) pag. 186-187'
+ /
+
+
