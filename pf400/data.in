@@ -1,0 +1,33 @@
+&bank
+	L0=40.0,
+	C0=1.0,
+	R0=10.0
+/
+&tube
+	RADA=0.6,
+	RADB=1.6,
+	Z0=1.7,
+	V0=28.0
+ /
+ &gas
+	g=1.66667,
+	P0=6.6,
+	ZN=1,
+	MW=4.0,
+	dissociatenumber = 2
+ /
+ &model
+	massf=0.08,
+	massfr=0.11,
+	currf=0.7,
+	currfr=0.7
+	
+ /
+ &control
+	Ncon=1,
+	D=2.0D-03,
+	title='S. Lee and H. Shaw (2017) pag. 186-187',
+	description=''
+ /
+
+
