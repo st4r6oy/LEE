@@ -1,0 +1,131 @@
+*** The LEE code for plasma focus calculations, CNEA (c) 2019-2020 ***
+ S. Lee and H. Shaw (2017) pag. 186-187                                          
+                                                                                 
+*** Input data ***
+- Geometry data:
+a = 5.9999999E-03 [m]; b = 1.6000000E-02 [m]; zo = 1.7000000E-02 [m]
+
+- Electrical data:
+Co = 1.0000000E-06 [F]; Lo = 4.0000000E-08 [Hy]; Vo = 2.8000000E+04 [V]
+
+- Gas data:
+Po = 6.6000000E+00 [Torr]; gamma = 1.6666700E+00; Z =  1;
+
+*** General parameters ***
+rho = 1.5378000E-03 [Kg/m3]
+- Electrical:
+Io = 1.4000000E+05 [A]; to = 2.0000000E-07 [s];  ta = 1.6151056E-07 [s]
+
+va = 1.0525627E+05 []
+
+- Pinch parameters:
+Vpinch = 1.8294253E+05 [V]; Tpinch = 3.2797185E-08 [s] 
+
+- Adimensional parameters:
+c = b/a = 2.6666667E+00; f = zo/a = 2.8333333E+00;  alpha = to/ta = 1.2383091E+00
+alpha_1 = 4.9245250E+00; beta = 5.8359341E-02; beta_1 = 2.1000000E-02; delta =  5.0000000E-02
+Alt =  1.0292950E+00
+
+
+*** Phase 1 (axial) parameters ***
+
+I(peak) =  1.2869676E+02 [KA]
+v_z(peak) =  8.9759269E+00 [cm/us]
+v_z(last) =  8.9759269E+00 [cm/us]
+(*) PHASE 1 ends at =  3.1120000E-01 [us]
+
+*** Phase 2 (radial) parameters ***
+
+radial phase starts at =  3.1120000E-01 [us]
+EINP= 1.8096562E+01  
+Final plasma Temp. = 2.3319225E+02 [eV]; ( 2.7060679E+06 [K] )
+(*) PHASE 2 ends at =  3.3650069E-01 [us]
+Phase 2 duration =  2.5300685E-02 [us]
+
+*** Phase 3 (radial reflected shock) parameters ***
+
+Radial phase duration =  3.3921660E+01 [us]
+(*) PHASE 3 ends at =  3.4512166E-01 [us]
+EINP= 2.3723453E+01  
+
+*** Phase 4 (radiative phase) parameters ***
+
+- initial phase parameters:
+RPSTART =  9.7911999E-04 []
+initial plasma Temp. = 5.5966167E+02 [eV]; ( 6.4945660E+06 [K] )
+SDSPEEDSTART =  1.9301549E+05 []
+TRAD1 =  5.0727534E-09 []
+D =  4.6853121E-19 []
+TStart =  3.4512166E-07 []
+I_total =  1.1978157E+02 [KA]
+I_pinch =  8.3847101E+01 [KA]
+amin =  9.7911999E-01 [cm]
+
+(!) Slow compression phase stopped either on preset time or on RP limit.
+
+- final phase parameters:
+QLN=-1.0438831E-06
+Final plasma Temp. = 5.4604847E+02 [eV]; ( 6.3365923E+06 [K] )
+ENDFLAG=  2
+(*) PHASE 4 ends at = 3.5020054E-01 [us]
+TSlowcompressionphase = 5.0788783E+00
+T radial= 3.9000540E-02
+T radial + T star= 3.5020054E-01
+Ipeak= 1.2869676E+02
+Ipinch= 8.3847101E+01
+SFIpeak= 8.3491914E+01
+SFIpinch= 5.4395734E+01
+VRMAX= 1.7857151E+01
+Kmin= 1.4267608E-01
+Ecap= 3.9200000E-01
+EINP= 7.0987727E+00
+--------------
+Y_th= 1.5116836E+01  [neutrons] 
+Y_bt= 1.2805550E+06  [neutrons] 
+--------------
+Ecap= 3.9200000E-01
+RESF= 5.0000000E-02
+C= 2.6666667E+00
+L0= 4.0000000E+01
+C0= 1.0000000E+00
+R0= 1.0000000E+01
+RADB= 1.6000000E+00
+RADA= 5.9999999E-01
+z0= 1.7000000E+00
+V0= 2.8000000E+01
+P0= 6.6000000E+00
+Spitzer R= 2.9720666E-04 [Ohm]
+ID= 2.1449461E-04  [KA/cm] 
+Yline=-1.0438831E-06  [J] 
+Yline= 2.6629670E-07  % 
+massf= 8.0000000E-02
+currf= 7.0000000E-01
+massfr= 1.1000000E-01
+currfr= 7.0000000E-01
+trradialstart= 3.1120000E-01  [] 
+
+*** Final relevant parameters:
+Ipeak= 1.2869676E+02  [KA] 
+Ipinch start = 8.3847101E+01  [KA] 
+peak v_axial= 8.9759269E+00  [cm/us] 
+SFIpeak= 8.3491914E+01
+peak radial vs=-3.5115119E+01  [cm/us] 
+peak radial vp=           NaN  [cm/us] 
+amin= 8.5605644E-02  [cm] 
+zmax= 8.4639150E-01  [cm] 
+TSlowcompressionphase= 5.0788783E+00  [ns] 
+VRMAX= 1.7857151E+01
+Tpinch max = 6.5737535E+06  [K]
+Y = 1.2805702E+06  [neutrons]
+nipinch= 4.2059658E+23  [1/m3] 
+EINP= 7.0987727E+00  % 
+*******************************
+
+
+*** Phase 5 (expanded axial) parameters ***
+
+Final phase time = 5.0020053E-01  [us] 
+
+*** All phases completed successfully. ***
+Stop.
+
