@@ -1,0 +1,33 @@
+&bank
+	L0=109.0,
+	C0=144.0,
+	R0=3.0
+/
+&tube
+	RADA=6.25,
+	RADB=10.2,
+	Z0=22,
+	V0=20.0
+ /
+ &gas
+	g=1.66667,
+	P0=2.2,
+	ZN=1,
+	MW=4.0,
+	dissociatenumber = 2
+ /
+ &model
+	massf=0.089,
+	massfr=0.42,
+	currf=0.49,
+	currfr=0.46
+	
+ /
+ &control
+	Ncon=1,
+	D=2.0D-03,
+	title='Plasma Phys. Control Fusion 56 (2014) 075001 (6pp)',
+	description='S. T. Ong, K. Chaudhary, J. Ali, S. Lee'
+ /
+
+
